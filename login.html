@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="js/login.js"></script>
 </head>
 <body>
     <main id="container">
-            <form id="login_form">
+            <form id="login_form" onsubmit="return validarLogin()">
                 <div id="form_header">
                     <h1>Login</h1>
                     <i  id="mode_icon" class="fa-solid fa-moon"></i>
@@ -37,7 +38,7 @@
                                 Nome
                                 <div class="input-field">
                                     <i class="fa-solid fa-user"></i>
-                                    <input type="text" name="name" id="name" placeholder="Digite seu Username">
+                                    <input type="text" name="name" id="nome_login" placeholder="Digite seu Username">
                                 </div>
                             </label>
                             
@@ -48,7 +49,7 @@
                                 E-mail
                                 <div class="input-field">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <input type="email" name="email" id="email" placeholder="Digite Seu E-mail">
+                                    <input type="email" name="email" id="email_login" placeholder="Digite Seu E-mail">
                                 </div>
                             </label>
                             
@@ -59,7 +60,7 @@
                                 Senha
                                 <div class="input-field">
                                     <i class="fa-solid fa-key"></i>
-                                    <input type="password" name="password" id="password" placeholder="Digite sua Senha">
+                                    <input type="password" name="password" id="senha_login" placeholder="Digite sua Senha">
                                 </div>
                             </label>
                             
