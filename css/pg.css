@@ -1,0 +1,93 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff, rgb(224, 194, 59));
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+    height: 700px;
+   
+}
+
+/* Estilos para o cabeçalho */
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: "Lexend", sans-serif;;
+}
+
+.header h2 {
+    margin: 10px 0 20px 0;
+    font-size: 1.5em;
+    color: #666;
+    font-family: "Lexend", sans-serif;;
+}
+
+/* Estilos para os cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #333;
+    font-family: "Lexend", sans-serif;;
+}
+
+/* Estilos para responsividade */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Lexend", sans-serif;;
+    background-color: #fff454;
+}
+.button:hover {
+    background-color: #f8d8d8;
+}

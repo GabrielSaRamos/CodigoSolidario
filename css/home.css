@@ -1,0 +1,301 @@
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(214, 192, 91);
+    
+}
+
+.rodape img{
+    width: 110px;
+    height: 100px;
+    align-items: center;
+    margin-left: 7px;
+    padding-left: 15px;
+    float: left;
+   
+}
+
+.txr{
+    display: flex;
+    flex-direction: column;
+    margin-right: 28%;
+    margin-top: -85px;
+    font-family: "Lexend", sans-serif;;
+}
+
+.txr h1{
+    font-size: 40px;
+    font-family: serif;
+    margin-top: 2%;
+    font-family: "Lexend", sans-serif;;
+
+}
+
+.txr h2{
+    font-size: 15px;
+    padding-left: 30px ;
+    font-family: serif;
+    font-family: "Lexend", sans-serif;;
+}
+
+.acesso{
+    display: flex;
+    margin-left: 60%;
+    
+}
+
+
+
+.acesso h1{
+   font-size: 18px;
+   color: aliceblue;
+   margin-top: 35px;
+   padding-left: 15px;
+   font-family: "Lexend", sans-serif;;
+}
+
+.acesso h2{
+
+    font-size: 18px;
+    margin-top: 35px;
+    padding-left: 15px;
+    font-family: "Lexend", sans-serif;;
+
+}
+
+
+.home{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    position: relative;
+    background: linear-gradient(to right, #ffffff, rgb(224, 194, 59)); /* Define o degradê de cor do contêiner */
+}
+
+.img1{
+   width: 300px;
+   height: 200px;
+   margin-top: 8%;
+   padding-left: 2%;
+    
+}
+
+.img2{
+    position: absolute;
+    right: 0; 
+    width: 50%; 
+    height: 750px;
+    
+}
+
+
+.home h1{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    padding-left: 12%;
+    margin-top: -2%;
+    font-family: "Lexend", sans-serif;;
+}
+.home h2{
+    font-size: 23px;
+    padding-left: 12%;
+    font-family: "Lexend", sans-serif;;
+
+}
+
+.home h3{
+    font-size: 20px;
+    padding-left: 12%;
+    font-family: "Lexend", sans-serif;;
+}
+
+.quem{
+    width: 100%;
+    height: 940px;
+    background: linear-gradient(to right, #dbd584, rgb(223, 195, 74)); /* Define o degradê de cor do contêiner */
+    display: flex;
+}
+
+.txq h1{
+    font-size: 50px;
+    font-family: fantasy;
+    margin-left: 70px;
+    margin-top: 9%;
+    font-family: "Lexend", sans-serif;;
+}
+
+.txq h2{
+    width: 650px; /* Largura da coluna lateral */
+    float: left; /* Flutua o elemento à esquerda */
+    margin-left: 70px; /* Espaçamento à direita para separar outras partes do layout */
+    text-align: justify;
+    font-family: serif;
+    color: rgb(32, 29, 29);
+    font-size: 26px;
+    font-family: "Lexend", sans-serif;;
+}
+
+.card{
+    width: 36%;
+    height: 25%;
+    background-color: rgb(112, 109, 109);
+    margin-top: 2%;
+    margin-left: 10%;
+    border-radius: 20px
+}
+
+.card h1{
+    font-size: 37px;
+    padding-left: 20px;
+    font-family: "Lexend", sans-serif;;
+    
+}
+
+.card h2{
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 15px;
+    text-align: justify;
+    color: rgb(32, 29, 29);
+    font-family: "Lexend", sans-serif;;
+}
+
+.linha{
+    width: 30%;
+    height: 1%;
+    background-color: black;
+    margin-top: 30%;
+    margin-right: 30px;
+}
+
+.projetos {
+    display: flex;
+  }
+  
+  .projetos h1 {
+      margin-top: 7%;
+      padding-left: 39%;
+      color: black;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .txc {
+  }
+  
+  .txc h1 {
+      margin-top: -25%;
+      font-size: 35px;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .txc h2 {
+      font-size: 23px;
+      margin-top: 1%;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .txc img {
+      width: 250px;
+      height: 150px;
+      padding-left: 85%;
+  }
+  
+  .txa h1 {
+      font-size: 35px;
+      margin-top: 5%;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .txa h2 {
+      font-size: 23px;
+      margin-top: 1%;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .txa img {
+      width: 150px;
+      height: 150px;
+  }
+  
+  .txs h1 {
+      font-size: 35px;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .txs h2 {
+      font-size: 23px;
+      margin-top: 1%;
+      font-family: "Lexend", sans-serif;;
+  }
+  
+  .parte {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(to right, #ffffff, rgb(224, 194, 59));
+}
+
+.txp h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Lexend", sans-serif;;
+    
+}
+
+.txl {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.txl img {
+    width: 800px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 3%;
+}
+
+.txpp {
+    max-width: 600px;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.txpp p {
+    font-size: 35px;
+    color: #333;
+    text-align: justify;
+    font-family: "Lexend", sans-serif;;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: "Lexend", sans-serif;;
+    background-color: #fff454;
+    color: black;
+}
+
+
+
+
+
+  
+
+
+  
+
